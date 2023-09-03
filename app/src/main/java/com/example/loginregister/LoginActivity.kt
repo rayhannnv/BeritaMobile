@@ -3,6 +3,8 @@ package com.example.loginregister
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_login.L_img_1
+import kotlinx.android.synthetic.main.activity_login.txt_register
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +23,7 @@ class LoginActivity : AppCompatActivity() {
     }
     private fun txtRegisterListener(){
         txt_register.setOnClickListener{
-            startActivity(Intent(this,RegisterActivity::class.java))
+            startActivity(Intent(this,Register::class.java))
         }
     }
 

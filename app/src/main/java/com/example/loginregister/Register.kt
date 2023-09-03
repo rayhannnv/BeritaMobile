@@ -3,6 +3,8 @@ package com.example.loginregister
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_register.R_img_1
+import kotlinx.android.synthetic.main.activity_register.txt_login
 
 class Register : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

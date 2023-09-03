@@ -3,6 +3,8 @@ package com.example.loginregister
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import kotlinx.android.synthetic.main.activity_main.btn_1
+import kotlinx.android.synthetic.main.activity_main.btn_2
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +23,7 @@ class MainActivity : AppCompatActivity() {
     }
     private fun btnRegisterListener(){
         btn_2.setOnClickListener{
-            startActivity(Intent(this,RegisterActivity::class.java))
+            startActivity(Intent(this,Register::class.java))
         }
     }
 
